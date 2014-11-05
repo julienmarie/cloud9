@@ -19,7 +19,6 @@ module.exports = function setup(options, imports, register) {
         termName: 'xterm-color',
         shell: 'bash',
         server: server,
-        localOnly: false,
         syncSession: true,
         sessionTimeout: 3600 // in seconds
     });
